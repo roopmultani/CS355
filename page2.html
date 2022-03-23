@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+   <meta charset="UTF-8">
+   <title>Mr.Pizza Reviews - Add Review</title>
+   <body>
+      <header>
+         <h1>Mr.Pizza Reviews</h1>
+         <nav>
+            <a href="CS355Project1.html">Home</a> &nbsp;
+            <a href="page3.html">Menu</a>
+         </nav>
+      </header>
+      <head>
+        <link rel="stylesheet" href="page2css.css">
+      </head>
+      <main>
+         <h2>Please Write A Review for the best Pizza place</h2>
+         <form method="post" action="https://google.com/form-viewer.php">         
+            <div>
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+               <label for="location">Location:</label>
+               <select id="location" name="location" required>
+                  <option value="">Select One...</option>
+                  <option>Pizza Place #1</option>
+                  <option>Pizza Place #2</option>
+                  <option>Pizza Place #3</option>
+                  <option>Pizza Place #4</option>
+               </select>
+            </div>
+            <div>
+               
+            </div>
+            <div>
+               <label for="rating">How many Stars do you rate us:</label>
+               <input type="number" id="rating" name="rating" min="1" max="5" step="0.5" value="5" required>
+            </div>
+            <div>
+               <label for="Comments">Comments: </label>
+               <textarea id="Comments" name="Comments" rows="5" cols="40" required></textarea>
+            </div>
+            <button>Submit</button>
+         </form>
+      </main>
+      
+      <footer>
+         <p>
+            &copy; 1995 Mr.Pizza's Pizza 
+         </p>
+      </footer>      
+        
+   </body>
+</html>
