@@ -1,4 +1,4 @@
-# CS355 Group Members- Jacob Brown, Diyor Zoirov, Rupinder Kaur
+# Group Members- Jacob Brown, Diyor Zoirov, Rupinder Kaur
 
 ## Business Name- Mr. Pizza’s Pizza
 
